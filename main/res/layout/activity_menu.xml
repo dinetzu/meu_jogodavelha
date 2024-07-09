@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jogo da Velha"
+        android:textSize="50sp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        >
+    </TextView>
+    <Button
+        android:id="@+id/buttonComp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Partida Contra o Computador"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/buttonLocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Partida local"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonSair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sair"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
