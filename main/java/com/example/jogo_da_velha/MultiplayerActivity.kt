@@ -31,7 +31,7 @@ class MultiplayerActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(binding.root)
 
-        binding.buttonSingle.setOnClickListener {
+        binding.buttonSair.setOnClickListener {
             val intent = Intent(this, MenuActivity::class.java)
             startActivity(intent)
             finish()
