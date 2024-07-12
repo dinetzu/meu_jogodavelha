@@ -32,6 +32,12 @@ class SingleplayerActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(binding.root)
+
+        binding.buttonSair.setOnClickListener {
+            val intent = Intent(this, MenuActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 
     //Função associada com todos os botões @param view é o botão clicado
